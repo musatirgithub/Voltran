@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header */
+header {
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    width:100%;
+    position: fixed;
+}
+header  h1 {
+    
+    display: inline-block;
+    margin: 15px auto;
+    padding: 8px;
+    border: 6px solid white;
+    border-radius: 40px;
+}
+
+/* Banner */
+.banner{
+    
+}
+
+/* Navbar */
+nav {
+    
+    margin: auto;
+    background-color: bisque;
+    position: sticky;
+    top: 112px;
+}
+nav > ul {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around ;
+    
+}
+
+nav > ul > li {
+    list-style-type: none;
+    font-size: 24px;
+    padding: 25px 0px;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color: rgb(79, 47, 49);
+}
+
+a:hover {
+    color: red;
+}
+
+
+/* Main */
+main {
+    width: 70%;
+    margin: 250px auto;
+}
+
+
+/* Article */
+article h2{
+    color: red;
+    font-size: 36px;
+    margin: 15px 0;
+}
+ article > p {
+     font-size: 20px;
+     text-align: justify;
+ }
+
+ article > p::first-line {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+/* Images */
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 150px 0px;
+}
+
+.images > li {
+    list-style-type: none;
+}
+
+.images > li > img {
+    width: 400px;
+    height: 280px;
+}
+
+
+/* Join */
+
+.join {
+    text-align: center;
+    background-color: bisque;
+    padding: 40px 0;
+}
+
+.join h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.join p {
+    font-size: 24px;
+}
+
+
+/* Form */
+form {
+    text-align: center;
+    background-color: bisque;
+    padding: 25px;
+}
+
+form > input[type=email]{
+    width: 250px;
+    height: 45px;
+    border: none;
+    border-radius: 23px;
+    placeholder
+}
+
+form > input[type=submit]{
+    width: 100px;
+    height: 45px;
+    border: 5px solid #33ff33;
+    border-radius: 23px;
+     
+}
+
+#submit{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(82, 82, 82);
+}
+
+::placeholder {
+    font-size: 20px;
+    text-align: center;
+}
+/* Footer */
+footer {
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
